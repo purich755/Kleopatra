@@ -1,0 +1,456 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>KLEOPATRA — студия красоты и лазерной эпиляции · Казань, Ямашева 90</title>
+  <meta name="description" content="Студия красоты и лазерной эпиляции KLEOPATRA в Казани, пр. Ямашева, 90. Лазер, маникюр и педикюр, ресницы, брови, массаж и коррекция фигуры — 160 м², весь бьюти-ритуал за один день. Открываемся в 8:00.">
+  <meta name="theme-color" content="#161413">
+  <meta name="robots" content="noindex">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ru_RU">
+  <meta property="og:title" content="KLEOPATRA — студия красоты и лазерной эпиляции в Казани">
+  <meta property="og:description" content="Лазер, руки, ресницы и массаж — в одном месте, за один день. Пр. Ямашева, 90.">
+  <meta property="og:image" content="https://purich755.github.io/Kleopatra/assets/img/interior/og.jpg">
+  <meta property="og:url" content="https://purich755.github.io/Kleopatra/">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="assets/svg/favicon.svg" type="image/svg+xml">
+
+  <script>
+    /* прелоадер — один раз за сессию; флаг атрибутом, а не классом: Lenis переписывает class у <html> */
+    (function () {
+      var d = document.documentElement;
+      d.setAttribute('data-js', '');
+      try {
+        if (sessionStorage.getItem('kleo-intro')) d.setAttribute('data-intro', 'off');
+        else sessionStorage.setItem('kleo-intro', '1');
+      } catch (e) { d.setAttribute('data-intro', 'off'); }
+    })();
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <!-- шрифты не блокируют первый кадр: грузятся параллельно и подменяются через display=swap -->
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@1,400;1,500&family=Forum&family=IBM+Plex+Mono:wght@400;500&family=Manrope:wght@400;500;600&display=swap&subset=cyrillic" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@1,400;1,500&family=Forum&family=IBM+Plex+Mono:wght@400;500&family=Manrope:wght@400;500;600&display=swap&subset=cyrillic"></noscript>
+  <link rel="preload" as="image" href="assets/img/interior/hero-team-sm.webp" media="(max-width: 899px)" fetchpriority="high">
+  <link rel="preload" as="image" href="assets/img/interior/hero-team.webp" media="(min-width: 900px)" fetchpriority="high">
+
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/sections.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BeautySalon",
+    "name": "Студия KLEOPATRA",
+    "description": "Студия красоты и лазерной эпиляции",
+    "telephone": "+7 927 410-88-89",
+    "address": { "@type": "PostalAddress", "streetAddress": "проспект Ямашева, 90", "addressLocality": "Казань", "postalCode": "420133", "addressCountry": "RU" },
+    "geo": { "@type": "GeoCoordinates", "latitude": 55.82799, "longitude": 49.148751 },
+    "paymentAccepted": "Наличные, банковский перевод",
+    "sameAs": ["https://vk.ru/kleosecret_kzn", "https://t.me/kleosecret_kzn"]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip" href="#main">К содержанию</a>
+
+  <!-- спрайт: монограмма -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <symbol id="mono" viewBox="0 0 64 100">
+      <path d="M26.2 0h4.2v92.5l2.2 3.5v4h-8.6v-4l2.2-3.5zM33.6 0h4.2v92.5l2.2 3.5v4h-8.6v-4l2.2-3.5z"/>
+      <path d="M6.5 15h10.2v2.6l-1.9 1.6v50.6l1.9 1.6V74H6.5v-2.6l1.9-1.6V19.2l-1.9-1.6zM47.3 15h10.2v2.6l-1.9 1.6v50.6l1.9 1.6V74H47.3v-2.6l1.9-1.6V19.2l-1.9-1.6z"/>
+      <path d="M14.4 22.5l3.2-1.8L32 50.2l14.4-29.5 3.2 1.8L32 58.4z"/>
+      <path d="M14.4 46l3.2-1.6 7.4 12.8-2.9 2.2zM49.6 46l-3.2-1.6-7.4 12.8 2.9 2.2z"/>
+    </symbol>
+  </svg>
+
+  <div class="grain" aria-hidden="true"></div>
+  <div class="cursor" aria-hidden="true"><span class="cursor-dot"></span><span class="cursor-ring"><span class="cursor-label">Листать</span></span></div>
+
+  <!-- 00 · Прелоадер «Подводка» -->
+  <div class="intro" aria-hidden="true">
+    <div class="intro-in">
+      <p class="intro-word"><span>K</span><span>L</span><span>E</span><span>O</span><span>P</span><span>A</span><span>T</span><span>R</span><span>A</span></p>
+      <svg class="intro-line" viewBox="0 0 600 60" preserveAspectRatio="xMidYMid meet">
+        <path d="M4 44 C 160 46, 380 46, 520 40 C 556 38, 578 30, 596 6" pathLength="1"/>
+      </svg>
+    </div>
+  </div>
+
+  <header class="hdr" data-hdr>
+    <a class="hdr-logo" href="#top" aria-label="KLEOPATRA — наверх">
+      <svg class="hdr-mono" viewBox="0 0 64 100" aria-hidden="true"><use href="#mono"/></svg>
+      <span class="hdr-name">Kleopatra</span>
+    </a>
+    <nav class="hdr-nav" aria-label="Разделы">
+      <a href="#laser">Лазер</a>
+      <a href="#services">Услуги</a>
+      <a href="#masters">Мастера</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+    <a class="hdr-phone" href="tel:+79274108889">+7 927 410-88-89</a>
+    <button class="hdr-burger" type="button" aria-expanded="false" aria-controls="menu" aria-label="Открыть меню"><span></span><span></span></button>
+  </header>
+
+  <div class="menu" id="menu" data-lenis-prevent hidden>
+    <nav class="menu-nav" aria-label="Меню">
+      <a href="#laser"><span class="menu-n">03</span>Лазер</a>
+      <a href="#services"><span class="menu-n">04</span>Услуги</a>
+      <a href="#day"><span class="menu-n">05</span>Одним днём</a>
+      <a href="#masters"><span class="menu-n">07</span>Мастера</a>
+      <a href="#space"><span class="menu-n">08</span>Пространство</a>
+      <a href="#contacts"><span class="menu-n">12</span>Контакты</a>
+    </nav>
+    <div class="menu-foot">
+      <a class="menu-tel" href="tel:+79274108889">+7 (927) 410-88-89</a>
+      <a class="btn btn--gold" href="https://wa.me/79274108889" target="_blank" rel="noopener"><span>Написать в WhatsApp</span></a>
+      <p class="menu-addr">Казань, пр. Ямашева, 90 · с 8:00</p>
+    </div>
+  </div>
+
+  <main id="main">
+
+    <!-- 01 · Hero -->
+    <section class="sec dark hero" id="top" aria-labelledby="hero-h" data-line="hero">
+      <div class="hero-grid">
+        <div class="hero-text">
+          <p class="eyebrow hero-eyebrow">Казань · Ямашева, 90 · с 8:00</p>
+          <p class="wordmark"><span class="sr">KLEOPATRA</span>
+            <span class="wm-row" aria-hidden="true"><span class="wm-in">KLEO</span></span>
+            <span class="wm-row wm-row--2" aria-hidden="true"><span class="wm-in">PATRA</span></span>
+            <svg class="flick" viewBox="0 0 420 40" aria-hidden="true">
+              <path d="M2 30 C 120 33, 260 33, 340 27 C 372 25, 396 18, 418 3" pathLength="1"/>
+            </svg>
+          </p>
+          <h1 class="hero-h" id="hero-h">Лазер, руки, ресницы и&nbsp;массаж — в&nbsp;одном месте, за&nbsp;один день.</h1>
+          <p class="hero-sub">Студия красоты и&nbsp;лазерной эпиляции. 160&nbsp;м², где можно пройти весь бьюти-ритуал, не&nbsp;переезжая из&nbsp;салона в&nbsp;салон.</p>
+          <div class="hero-cta">
+            <a class="btn btn--gold magnet" href="https://wa.me/79274108889" target="_blank" rel="noopener"><span>Написать в WhatsApp</span></a>
+            <a class="hero-tel" href="tel:+79274108889">+7 (927) 410-88-89</a>
+          </div>
+        </div>
+        <figure class="hero-photo">
+          <div class="arch hero-arch">
+            <picture>
+              <source media="(max-width: 899px)" srcset="assets/img/interior/hero-team-sm.webp" width="720" height="940">
+              <img class="ph" src="assets/img/interior/hero-team.webp" width="1200" height="1500" alt="Команда студии KLEOPATRA в красном и чёрном на бархатном диване" fetchpriority="high" decoding="async">
+            </picture>
+          </div>
+          <figcaption class="cap hero-cap">Команда студии — в&nbsp;красном и&nbsp;чёрном</figcaption>
+          <a class="badge30" href="#offer">
+            <svg viewBox="0 0 120 120" aria-hidden="true">
+              <defs><path id="badge-ring" d="M60 60 m-44 0 a44 44 0 1 1 88 0 a44 44 0 1 1 -88 0"/></defs>
+              <circle cx="60" cy="60" r="58" class="badge-bg"/>
+              <text class="badge-ring"><textPath href="#badge-ring" textLength="270" lengthAdjust="spacing">первое посещение · первое посещение ·</textPath></text>
+            </svg>
+            <span class="badge-n">−30%<span class="sr"> на первое посещение</span></span>
+          </a>
+        </figure>
+      </div>
+      <div class="ticker" aria-hidden="true">
+        <div class="ticker-track">
+          <span class="ticker-run">Лазерная эпиляция<i>◆</i>Маникюр<i>◆</i>Педикюр<i>◆</i>Ресницы<i>◆</i>Брови<i>◆</i>Вакуумный массаж<i>◆</i>Криолиполиз<i>◆</i>Хиджама<i>◆</i>Кератин<i>◆</i>Татуаж<i>◆</i>Пирсинг<i>◆</i></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- 02 · Цифры -->
+    <section class="sec light numbers" id="numbers" aria-labelledby="numbers-h" data-line="spine">
+      <p class="secno">02 / 12</p>
+      <h2 class="sr" id="numbers-h">Студия в цифрах</h2>
+      <ul class="num-grid">
+        <li class="num">
+          <p class="num-v"><span data-count="160">160</span><small>&nbsp;м²</small></p>
+          <p class="num-cap">пространство для всего ритуала</p>
+        </li>
+        <li class="num">
+          <p class="num-v"><span data-count="10">10</span></p>
+          <p class="num-cap">направлений в&nbsp;прайсе</p>
+        </li>
+        <li class="num">
+          <p class="num-v"><span data-count="8" data-pad="2">08</span>:00</p>
+          <p class="num-cap">открываемся раньше всех</p>
+        </li>
+        <li class="num num--carmine">
+          <p class="num-v">−<span data-count="30">30</span>%</p>
+          <p class="num-cap">на&nbsp;первое посещение</p>
+        </li>
+      </ul>
+    </section>
+
+    <!-- 03 · Лазер — «Луч» -->
+    <section class="sec dark laser" id="laser" aria-labelledby="laser-h">
+      <div class="laser-stage" data-laser-stage>
+        <p class="secno">03 / 12</p>
+        <div class="laser-copy">
+          <p class="eyebrow">Лазерная эпиляция</p>
+          <h2 class="h2 split" id="laser-h">Одна линия —<br> и&nbsp;волосы уходят</h2>
+          <ol class="theses">
+            <li class="thesis"><span class="thesis-n">01</span><p>Аппарат премиум-класса</p></li>
+            <li class="thesis"><span class="thesis-n">02</span><p>Около 10&nbsp;процедур — до&nbsp;гладкости, о&nbsp;которой пишут гостьи</p></li>
+            <li class="thesis"><span class="thesis-n">03</span><p>Отдельный мужской прайс</p></li>
+          </ol>
+        </div>
+        <figure class="beam-fig">
+          <div class="beam-frame">
+            <img class="ph" src="assets/img/body/laser-beam.webp" width="900" height="1120" alt="Процедура лазерной эпиляции голеней: насадка аппарата с розовым свечением" loading="lazy" decoding="async">
+            <div class="beam-tone"></div>
+            <div class="beam" aria-hidden="true"><span class="beam-glow"></span><span class="beam-core"></span></div>
+          </div>
+          <figcaption class="cap">Голени, одна вспышка за&nbsp;другой</figcaption>
+        </figure>
+      </div>
+
+      <div class="zones" id="zones" data-line="spine">
+        <div class="zones-head">
+          <h3 class="h3">Конструктор зон</h3>
+          <p class="zones-lead">Отметьте зоны — посчитаем по&nbsp;прайсу студии и&nbsp;подскажем, если набор совпадает с&nbsp;комплексом.</p>
+          <div class="toggle" role="group" aria-label="Прайс">
+            <span class="toggle-pad" aria-hidden="true"></span>
+            <button type="button" class="toggle-b" data-sex="her" aria-pressed="true">Для неё</button>
+            <button type="button" class="toggle-b" data-sex="him" aria-pressed="false">Для него</button>
+          </div>
+        </div>
+        <div class="zones-grid">
+          <div class="figure" data-figure aria-hidden="true"></div>
+          <div class="chips" data-chips></div>
+          <aside class="check" aria-label="Ваш выбор">
+            <p class="check-t">Ваш выбор</p>
+            <ul class="check-list" data-check-list><li class="check-empty">Пока пусто — отметьте зону слева</li></ul>
+            <div class="check-total">
+              <span class="check-l">Итого</span>
+              <span class="check-sum"><s class="check-old" data-check-old hidden></s><span class="odo" data-odo="total" aria-hidden="true"></span><span class="rub">&nbsp;₽</span></span>
+              <span class="sr" aria-live="polite" data-total-live>Итого 0 рублей</span>
+            </div>
+            <p class="complex" data-complex hidden></p>
+            <a class="btn btn--gold btn--block" data-wa href="https://wa.me/79274108889" target="_blank" rel="noopener" aria-disabled="true"><span>Отправить выбор в WhatsApp</span></a>
+            <p class="fine">Это сообщение администратору, а&nbsp;не&nbsp;запись. Цены — по&nbsp;прайсу студии; актуальную стоимость уточняйте у&nbsp;администратора.</p>
+          </aside>
+        </div>
+        <div class="passes">
+          <p class="passes-t">Абонемент на&nbsp;любые зоны</p>
+          <ul class="passes-list">
+            <li><span class="passes-m">5 мес</span><span class="passes-o">−25%</span></li>
+            <li><span class="passes-m">8 мес</span><span class="passes-o">−30%</span></li>
+            <li><span class="passes-m">10 мес</span><span class="passes-o">−35%</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 04 · Указатель услуг -->
+    <section class="sec light services" id="services" aria-labelledby="services-h" data-line="spine">
+      <p class="secno">04 / 12</p>
+      <div class="services-head">
+        <h2 class="h2 split" id="services-h">Указатель</h2>
+        <p class="services-lead">Девять направлений, кроме лазера. Откройте строку — внутри цены по&nbsp;прайсу.</p>
+      </div>
+      <ol class="index" data-index></ol>
+      <p class="fine services-fine">Цены — по&nbsp;прайсу студии; актуальную стоимость уточняйте у&nbsp;администратора.</p>
+      <div class="float-arch" aria-hidden="true"><div class="float-in"></div></div>
+    </section>
+
+    <!-- 05 · Одним днём -->
+    <section class="sec dark day" id="day" aria-labelledby="day-h" data-line="spine">
+      <div class="day-pin" data-day-pin>
+        <p class="secno">05 / 12</p>
+        <div class="day-head">
+          <h2 class="h2 split" id="day-h">Одним днём</h2>
+          <p class="day-cap">Так проводит день одна из&nbsp;наших гостей — она написала об&nbsp;этом сама</p>
+        </div>
+        <div class="day-viewport">
+          <div class="day-track" data-day-track>
+            <div class="day-axis" aria-hidden="true"></div>
+            <ol class="day-stops" data-day-stops></ol>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 06 · Скульптор -->
+    <section class="sec light sculpt" id="sculpt" aria-labelledby="sculpt-h" data-line="sculpt">
+      <p class="secno">06 / 12</p>
+      <figure class="sculpt-fig">
+        <div class="arch sculpt-arch" data-sculpt-arch>
+          <img class="ph" src="assets/img/body/candles.webp" width="820" height="1160" alt="Массажный кабинет со свечами в нишах: мастер делает массаж спины" loading="lazy" decoding="async">
+        </div>
+        <figcaption class="cap">Массажная со&nbsp;свечами</figcaption>
+      </figure>
+      <div class="sculpt-copy">
+        <p class="eyebrow">Фигура и тело</p>
+        <h2 class="h2 split" id="sculpt-h">Всё для похудения — под&nbsp;одной крышей</h2>
+        <ul class="program">
+          <li><b>Вакуумный массаж</b> + обёртывание в&nbsp;термоодеяло</li>
+          <li>Кавитация</li>
+          <li>RF-лифтинг</li>
+          <li>Криолиполиз</li>
+          <li>Обёртывание «виски-пеленание»</li>
+          <li>Ароматач</li>
+          <li>Хиджама</li>
+        </ul>
+        <div class="cryo" data-cryo>
+          <div class="cryo-top">
+            <label class="cryo-l" for="cryo-range">Криолиполиз — насадок: <b data-cryo-n>1</b></label>
+            <p class="cryo-price"><span class="odo" data-odo="cryo" aria-hidden="true"></span><span class="rub">&nbsp;₽</span><span class="sr" aria-live="polite" data-cryo-live></span></p>
+          </div>
+          <div class="cryo-range">
+            <input id="cryo-range" type="range" min="1" max="5" step="1" value="1" aria-valuetext="1 насадка — 1 500 рублей">
+            <div class="cryo-ticks" aria-hidden="true"><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span></div>
+          </div>
+        </div>
+        <blockquote class="sculpt-q">
+          <p><span class="hang">«</span>Мастер Диляра — скульптор моего тела»</p>
+        </blockquote>
+      </div>
+    </section>
+
+    <!-- 07 · Мастера -->
+    <section class="sec dark masters" id="masters" aria-labelledby="masters-h" data-line="spine">
+      <p class="secno">07 / 12</p>
+      <div class="masters-head">
+        <h2 class="h2 split" id="masters-h">Руки, к&nbsp;которым возвращаются</h2>
+        <p class="masters-lead">Некоторые гостьи ходят к&nbsp;Тамаре больше десяти лет. Одна — пятнадцать.</p>
+      </div>
+      <ul class="masters-row" data-masters></ul>
+      <p class="fine masters-fine">Имена и&nbsp;слова — из&nbsp;отзывов гостей на&nbsp;Яндекс Картах.</p>
+    </section>
+
+    <!-- 08 · Пространство -->
+    <section class="sec light space" id="space" aria-labelledby="space-h" data-line="spine">
+      <p class="secno">08 / 12</p>
+      <div class="space-head">
+        <h2 class="h2 split" id="space-h">Сто шестьдесят<br> квадратных метров</h2>
+        <p class="space-lead">Кабинеты для лазера, массажа и&nbsp;косметологии, общий светлый зал для рук и&nbsp;волос.</p>
+      </div>
+      <div class="collage">
+        <figure class="cl cl-1" data-speed="0.86"><img class="ph" src="assets/img/interior/c-cabinet.webp" width="900" height="1120" alt="Светлый кабинет с кушеткой и растениями на окне" loading="lazy" decoding="async"></figure>
+        <figure class="cl cl-2" data-speed="1.14"><img class="ph" src="assets/img/interior/c-wall.webp" width="900" height="600" alt="Меловая стена «Добро пожаловать в студию красоты и лазерной эпиляции KLEOPATRA»" loading="lazy" decoding="async"></figure>
+        <figure class="cl cl-3" data-speed="0.94"><img class="ph" src="assets/img/interior/c-laser.webp" width="760" height="960" alt="Кабинет лазерной эпиляции" loading="lazy" decoding="async"></figure>
+        <figure class="cl cl-4" data-speed="1.22"><img class="ph" src="assets/img/interior/c-cryo.webp" width="640" height="820" alt="Аппарат для криолиполиза в кабинете" loading="lazy" decoding="async"></figure>
+        <figure class="cl cl-5" data-speed="1.04"><img class="ph" src="assets/img/interior/c-hall.webp" width="900" height="720" alt="Кабинет с креслом, кольцевой лампой и аппаратом" loading="lazy" decoding="async"><figcaption class="cap">Кабинет аппаратной косметологии</figcaption></figure>
+      </div>
+
+      <div class="strip-head">
+        <div class="tabs" role="tablist" aria-label="Фото">
+          <button type="button" role="tab" class="tab" data-tab="interior" aria-selected="true" aria-controls="strip">Интерьер</button>
+          <button type="button" role="tab" class="tab" data-tab="works" aria-selected="false" aria-controls="strip">Работы</button>
+          <button type="button" role="tab" class="tab" data-tab="team" aria-selected="false" aria-controls="strip">Команда</button>
+        </div>
+        <p class="strip-hint">Тяните ленту или листайте — фото откроется крупно</p>
+      </div>
+      <div class="strip" id="strip" role="tabpanel" tabindex="0" aria-label="Лента фото" data-strip>
+        <ul class="strip-track" data-strip-track></ul>
+      </div>
+    </section>
+
+    <!-- 09 · Секреты -->
+    <section class="sec dark secrets" id="secrets" aria-labelledby="secrets-h" data-line="spine">
+      <p class="secno">09 / 12</p>
+      <div class="secrets-head">
+        <p class="eyebrow">Секреты Клеопатры</p>
+        <h2 class="h2 split" id="secrets-h">То, что знают только наши гостьи</h2>
+      </div>
+      <ul class="envelopes" data-envelopes></ul>
+      <figure class="secrets-tea">
+        <img class="ph" src="assets/img/body/tea.webp" width="900" height="900" alt="Чай в золотой чашке, пирожные и фрукты для гостей" loading="lazy" decoding="async">
+        <figcaption class="cap">Секрет №&nbsp;1 в&nbsp;одном кадре</figcaption>
+      </figure>
+    </section>
+
+    <!-- 10 · Голоса -->
+    <section class="sec light voices" id="voices" aria-labelledby="voices-h" data-line="spine">
+      <p class="secno">10 / 12</p>
+      <h2 class="eyebrow voices-t" id="voices-h">Голоса гостей</h2>
+      <div class="voices-stage" data-voices aria-roledescription="карусель" aria-label="Отзывы гостей">
+        <blockquote class="voice" aria-live="off" data-voice>
+          <p class="voice-q" data-voice-q></p>
+          <footer class="voice-who" data-voice-who></footer>
+        </blockquote>
+        <div class="voice-dots" data-voice-dots></div>
+      </div>
+      <p class="goodplace"><svg viewBox="0 0 64 100" aria-hidden="true"><use href="#mono"/></svg><span>Хорошее место 2026<br>Яндекс Карты</span></p>
+    </section>
+
+    <!-- 11 · Первая встреча -->
+    <section class="offer" id="offer" aria-labelledby="offer-h" data-line="offer">
+      <h2 class="sr" id="offer-h">Предложения</h2>
+      <div class="offer-run" aria-hidden="true">
+        <div class="offer-track">
+          <span class="offer-seq">Первое посещение <b>−30%</b><i>◆</i>Комплексы лазера <b>до −20%</b><i>◆</i>Абонемент на&nbsp;10&nbsp;месяцев <b>−35%</b><i>◆</i></span>
+        </div>
+      </div>
+      <ul class="sr">
+        <li>Первое посещение — скидка 30%</li>
+        <li>Комплексы лазера — скидка до 20%</li>
+        <li>Абонемент на 10 месяцев — скидка 35%</li>
+      </ul>
+      <a class="btn btn--gold offer-cta magnet" href="https://wa.me/79274108889" target="_blank" rel="noopener"><span>Написать в WhatsApp</span></a>
+    </section>
+
+    <!-- 12 · Картуш -->
+    <section class="sec dark final" id="contacts" aria-labelledby="final-h" data-line="final">
+      <p class="secno">12 / 12</p>
+      <div class="final-grid">
+        <div class="cartouche" data-cartouche>
+          <h2 class="final-addr" id="final-h">пр. Ямашева, 90<span>Казань</span></h2>
+          <p class="final-tel"><a href="tel:+79274108889">+7 (927) 410-88-89</a></p>
+          <p class="final-links">
+            <a href="https://wa.me/79274108889" target="_blank" rel="noopener">WhatsApp</a>
+            <a href="https://t.me/kleosecret_kzn" target="_blank" rel="noopener">Telegram</a>
+            <a href="https://vk.ru/kleosecret_kzn" target="_blank" rel="noopener">ВКонтакте</a>
+          </p>
+          <dl class="final-facts">
+            <div><dt>Время</dt><dd>Открываемся в&nbsp;8:00 · по&nbsp;предварительной записи</dd></div>
+            <div><dt>Удобства</dt><dd>Парковка · пандус · кнопка вызова персонала · можно с&nbsp;питомцем</dd></div>
+            <div><dt>Оплата</dt><dd>Наличные или перевод</dd></div>
+            <div><dt>Дорога</dt><dd>Остановка «Улица Адоратского» — 87&nbsp;м</dd></div>
+          </dl>
+        </div>
+        <figure class="map arch">
+          <div class="map-stub">
+            <svg viewBox="0 0 64 100" aria-hidden="true"><use href="#mono"/></svg>
+            <p>пр. Ямашева, 90</p>
+            <a class="btn btn--gold" href="https://yandex.ru/maps/org/kleopatra/142678783070/" target="_blank" rel="noopener"><span>Открыть в&nbsp;Яндекс Картах</span></a>
+          </div>
+          <iframe class="map-frame" title="Студия KLEOPATRA на Яндекс Картах" data-src="https://yandex.ru/map-widget/v1/?ll=49.148751%2C55.827990&amp;z=17&amp;pt=49.148751,55.827990,pm2rdm" loading="lazy" tabindex="-1"></iframe>
+        </figure>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <div class="foot-row">
+      <p>© Студия KLEOPATRA, Казань</p>
+      <p>Демо-версия сайта</p>
+    </div>
+    <p class="foot-word" aria-hidden="true">KLEOPATRA</p>
+  </footer>
+
+  <!-- лайтбокс -->
+  <div class="lb" data-lb role="dialog" aria-modal="true" aria-label="Просмотр фото" hidden>
+    <div class="lb-bg"></div>
+    <figure class="lb-fig"><img class="lb-img" alt="" decoding="async"><figcaption class="lb-cap"></figcaption></figure>
+    <p class="lb-count" aria-live="polite"></p>
+    <button type="button" class="lb-b lb-prev" aria-label="Предыдущее фото"><svg viewBox="0 0 40 16" aria-hidden="true"><path d="M39 8H2M8 1L1 8l7 7"/></svg></button>
+    <button type="button" class="lb-b lb-next" aria-label="Следующее фото"><svg viewBox="0 0 40 16" aria-hidden="true"><path d="M1 8h37M32 1l7 7-7 7"/></svg></button>
+    <button type="button" class="lb-b lb-close" aria-label="Закрыть"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M2 2l16 16M18 2L2 18"/></svg></button>
+  </div>
+
+  <script defer src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/lenis@1.3.11/dist/lenis.min.js"></script>
+  <script defer src="js/data.js"></script>
+  <script defer src="js/line.js"></script>
+  <script defer src="js/laser.js"></script>
+  <script defer src="js/services.js"></script>
+  <script defer src="js/gallery.js"></script>
+  <script defer src="js/secrets.js"></script>
+  <script defer src="js/main.js"></script>
+</body>
+</html>

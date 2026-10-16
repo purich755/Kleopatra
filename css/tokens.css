@@ -1,0 +1,34 @@
+:root {
+  --kohl: #161413;
+  --kohl-2: #211e1c;
+  --kohl-3: #2b2724;
+  --sand: #E8DCCB;
+  --sand-2: #D6C4AC;
+  --gold: #B8925A;
+  --gold-hi: #E2C48E;
+  /* золото для текста на песке: #B8925A на #E8DCCB даёт 2.3:1, тёмная бронза — 4.9:1 */
+  --gold-ink: #7A5A2B;
+  --carmine: #8E1F2A;
+  --carmine-hi: #B23A44;
+  --ink: #F3ECE2;
+  --ink-dim: #A39A8F;
+  --ink-dark: #1d1a18;
+  --ink-dark-dim: #5E544A;
+  --line: rgba(184, 146, 90, .4);
+  --line-soft: rgba(184, 146, 90, .22);
+
+  --f-display: 'Forum', 'Times New Roman', serif;
+  --f-italic: 'Cormorant Infant', 'Times New Roman', serif;
+  --f-body: 'Manrope', system-ui, sans-serif;
+  --f-mono: 'IBM Plex Mono', ui-monospace, monospace;
+
+  --gutter: clamp(20px, 6vw, 96px);
+  --maxw: 1440px;
+  --sec-y: clamp(96px, 13vw, 200px);
+  --header-h: 72px;
+
+  --ease-out: cubic-bezier(.16, 1, .3, 1);
+  --ease-io: cubic-bezier(.65, 0, .35, 1);
+
+  --arch: 999px 999px 0 0;
+}
